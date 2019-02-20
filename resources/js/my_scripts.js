@@ -81,6 +81,7 @@ function viewStudentStats(id, toggle) {
         document.getElementById(id).style.visibility = 'hidden';
         document.getElementById(id).style.height = '0';
     }
+    //Ay! you got yourself a bug here!
 }
 
 /*
